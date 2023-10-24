@@ -1,0 +1,87 @@
+.text1{
+    background-color: plum;
+}       
+/* 1 dvaleba */
+button{
+    display: block;
+    margin: auto;
+    color: white;
+    padding: 50px;
+    background-color: palevioletred;
+    font-size: 46px;
+    background: none;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0), 5px 5px 5px whitesmoke inset;
+    text-shadow: black 5px 5px 5px;
+
+
+    
+}
+button:active{ 
+    box-shadow: black 5px 5px 5px inset, 5px 5px 5px white;
+    
+}
+/* 2davaleba */
+figure{
+    display: block;
+    margin: auto;
+    width: 1000px;
+    background: whitesmoke;
+    padding:20px 50px;
+    border-radius: 20px;
+    transition: box_shadow 2s;
+}
+img{
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+figcaption{
+    font-size: 46px;
+    margin: auto;
+    text-align: center;
+
+}
+figure:hover{
+    box-shadow: green 5px 5px 10px;
+}
+/* 3davaleba */
+p{
+    padding: 50px;
+    text-align: center;
+    font-size: 46px;
+    background: radial-gradient(linear, color red pink );
+    animation: gradient linear;
+    background-clip: text;
+    -webkit-animation: text;
+
+}
+@keyframes{
+    
+}
+
+
+/* 4davleba */
+header{
+    padding: 20px;
+    margin: auto;
+    background: black;
+
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    color: goldenrod;
+   font-size: 46px; 
+
+
+}
+a:hover{
+    text-shadow: rgba(153, 205, 50, 0.678) 5px 5px 10px, gold 5px 5px 15px, rgb(107, 187, 16) 5px 5px 25px, rgba(255, 255, 0, 0.308) 5px 5px 30px;
+}
